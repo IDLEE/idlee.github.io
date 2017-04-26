@@ -58,6 +58,15 @@ a {
 	.header-title .main-title {
 		font-size: 2rem!important;
 	}
+	.header-title {
+	margin-top: 2rem!important;
+	}
+	.header-title p {
+	margin-bottom: 2rem!important;
+	}
+	.web-font {
+	margin-bottom: 2rem!important;
+	}
 }
 
 
