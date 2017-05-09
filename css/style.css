@@ -107,13 +107,15 @@ a {
 		margin-bottom: 3rem !important;
 	}
 	.article-content p {
-		color: #727276 !important;
+		color: #333 !important;
 		font-size: 1rem !important;
 		line-height: 1.6rem !important;
 		font-family: 'PingFangSC-Light','LanTingHei SC','PingHei' !important;
 	}
 	.web-font {
 		font-family: 'PingFangSC-Light','LanTingHei SC','PingHei';
+		font-size: 0.8rem !important;
+		line-height: 1.4rem !important;
 	}
 }
 
@@ -315,7 +317,7 @@ body #nav {
 }
 .article-content p {
   font-size: 1.1rem;
-  color:#555;
+  color:#444;
   line-height: 2rem;
   font-family: 'PingFangSC-Light','LanTingHei SC','PingHei';
   letter-spacing: 0.1rem;
