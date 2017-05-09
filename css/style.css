@@ -110,10 +110,10 @@ a {
 		color: #727276 !important;
 		font-size: 1rem !important;
 		line-height: 1.6rem !important;
-		font-family: 'PingFang SC','LanTingHei SC','PingHei' !important;
+		font-family: 'PingFangSC-Light','LanTingHei SC','PingHei' !important;
 	}
 	.web-font {
-		font-family: 'PingFang SC','LanTingHei SC','PingHei';
+		font-family: 'PingFangSC-Light','LanTingHei SC','PingHei';
 	}
 }
 
@@ -127,7 +127,7 @@ a {
 
 /* ----- NAV CSS ----- */
 body {
-  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif,'PingFang SC','LanTingHei SC','PingHei';;
+  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif,'PingFangSC-Light','LanTingHei SC','PingHei';;
   -webkit-font-smoothing:antialiased;
 }
 body #nav {
@@ -317,7 +317,7 @@ body #nav {
   font-size: 1.1rem;
   color:#555;
   line-height: 2rem;
-  font-family: 'PingFang SC','LanTingHei SC','PingHei';
+  font-family: 'PingFangSC-Light','LanTingHei SC','PingHei';
   letter-spacing: 0.1rem;
 }
 .article-content h2 {
@@ -474,6 +474,7 @@ body #nav {
 
 .web-font{
     /*font-family:"webfont" !important;*/
+		font-family: 'PingFangSC-Light','LanTingHei SC','PingHei';
     font-size:1rem;
 		font-style:normal;
     margin-top: 0.5rem;
