@@ -108,6 +108,9 @@ a {
 		font-size: 1rem !important;
 		line-height: 1.6rem !important;
 	}
+	.web-font {
+		font-family: 'PingFang SC','LanTingHei SC','PingHei';
+	}
 }
 
 
