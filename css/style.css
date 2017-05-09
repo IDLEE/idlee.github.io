@@ -74,6 +74,9 @@ a {
 	.web-font {
 		margin-bottom: 2rem!important;
 	}
+	.article-banner-bg {
+		height: 15rem !important;
+	}
 	.article-date {
 		margin-top: 0.8rem!important;
 	}
@@ -280,7 +283,7 @@ body #nav {
 
 
 /* ----- DETAIL CSS ----- */
-.article-banner-bg-1 {
+.article-banner-bg{
 	width: 100%;
 	height: 22rem;
 	background-image: url(../images/top_bg_1.png);
