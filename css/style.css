@@ -115,7 +115,7 @@ a {
 
 /* ----- NAV CSS ----- */
 body {
-  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif,'LanTingHei SC','PingHei';;
+  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif,'PingFang SC','LanTingHei SC','PingHei';;
   -webkit-font-smoothing:antialiased;
 }
 body #nav {
@@ -304,7 +304,7 @@ body #nav {
   font-size: 1.1rem;
   color:#555;
   line-height: 2rem;
-  font-family: 'LanTingHei SC','PingHei';
+  font-family: 'PingFang SC','LanTingHei SC','PingHei';
   letter-spacing: 0.1rem;
 }
 .article-content h2 {
@@ -460,7 +460,7 @@ body #nav {
 }
 
 .web-font{
-    font-family:"webfont" !important;
+    /*font-family:"webfont" !important;*/
     font-size:1rem;
 		font-style:normal;
     margin-top: 0.5rem;
