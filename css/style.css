@@ -102,6 +102,8 @@ a {
 	}
 	.article-content p {
 		color: #727276 !important;
+		font-size: 1rem !important;
+		line-height: 1.6rem !important;
 	}
 }
 
