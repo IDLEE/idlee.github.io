@@ -109,7 +109,7 @@ a {
 	.article-content p {
 		color: #000 !important;
 		font-size: 1.05rem !important;
-		line-height: 2.1rem !important;
+		line-height: 2rem !important;
 		font-family: 'PingFangSC-Light','LanTingHei SC','PingHei' !important;
 		letter-spacing: 0.05rem !important;
 	}
@@ -354,7 +354,7 @@ body #nav {
   margin-left: 20px;
 }
 .avatar-intro h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 .avatar-intro p {
