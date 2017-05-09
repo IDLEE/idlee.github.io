@@ -57,7 +57,7 @@ a {
 		box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.06) !important;
 	}
 	.nav-logo {
-		margin-left: 4%;
+		margin-left: 1rem !important;
 	}
 	.nav-item {
 		display: none;
