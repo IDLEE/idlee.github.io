@@ -56,6 +56,9 @@ a {
 		background-color: rgba(255, 255, 255, 1)!important;
 		box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.06) !important;
 	}
+	.nav-logo {
+		margin-left: 4%;
+	}
 	.nav-item {
 		display: none;
 	}
@@ -135,7 +138,7 @@ body #nav {
   float: left;
   width: 104px;
   height: 36px;
-  margin-left: 4%;
+  margin-left: 2%;
   margin-top: 16px;
 }
 .nav-logo .logo {
