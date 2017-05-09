@@ -97,6 +97,7 @@ a {
 	.article-detail-title {
 		font-size: 1.8rem !important;
 		margin-top: 2rem !important;
+		font-weight: 600 !important;
 	}
 	.article-detail-date {
 		margin-top: 0.5rem !important;
