@@ -97,11 +97,22 @@ body {
   background-size: cover;
 }
 
+.artbord_warp .artbord_position {
+  position: absolute;
+  width: 375px;
+  height: 667px;
+  left: 38px;
+  top: 117px;
+}
+
+
+
+
 /* 已购互动 */
 .content .artbord_buy_tab {
   position: absolute;
-  left: 43px;
-  top: 117px;
+  left: 0px;
+  top: 0px;
   width: 375px;
   height: 667px;
   overflow-y: scroll;
@@ -110,8 +121,8 @@ body {
 /* 已购课程 */
 .content .artbord_buy_lesson_tab {
   position: absolute;
-  left: 43px;
-  top: 117px;
+  left: 0px;
+  top: 0px;
   width: 375px;
   height: 667px;
   overflow-y: scroll;
@@ -119,16 +130,16 @@ body {
 
 .artbord_warp .artbord_top {
   position: absolute;
-  left: 43px;
-  top: 117px;
+  left: 0px;
+  top: 0px;
   width: 375px;
   height: 114px;
 }
 
 .artbord_warp .artbord_bot {
   position: absolute;
-  left: 43px;
-  top: 736px;
+  left: 0px;
+  bottom: 0px;
   width: 375px;
   height: 48px;
 }
@@ -140,8 +151,8 @@ body {
 /* 消息 */
 .content .artbord_info_tab {
   position: absolute;
-  left: 43px;
-  top: 117px;
+  left: 0px;
+  top: 0px;
   width: 375px;
   height: 667px;
   overflow-y: scroll;
@@ -150,8 +161,8 @@ body {
 /* 个人中心 */
 .content .artbord_account_tab {
   position: absolute;
-  left: 43px;
-  top: 117px;
+  left: 0px;
+  top: 0px;
   width: 375px;
   height: 667px;
   overflow-y: scroll;
@@ -160,8 +171,8 @@ body {
 /* 首页 */
 .content .artbord_home_tab {
   position: absolute;
-  left: 43px;
-  top: 117px;
+  left: 0px;
+  top: 0px;
   width: 375px;
   height: 667px;
   overflow-y: scroll;
@@ -169,8 +180,8 @@ body {
 
 .content .artbord_search {
   position: absolute;
-  left: 43px;
-  top: 117px;
+  left: 0px;
+  top: 0px;
   width: 375px;
   height: 667px;
 }
@@ -178,8 +189,8 @@ body {
 /* 图文购买前 */
 .content .artbord_imgtxt_front {
   position: absolute;
-  left: 43px;
-  top: 117px;
+  left: 0px;
+  top: 0px;
   width: 375px;
   height: 667px;
   overflow-y: scroll;
@@ -187,8 +198,8 @@ body {
 
 .content .artbord_imgtxt_frontcommon {
   position: absolute;
-  left: 43px;
-  top: 117px;
+  left: 0px;
+  top: 0px;
   width: 375px;
   height: 667px;
   overflow-y: scroll;
@@ -197,8 +208,8 @@ body {
 
 .artbord_warp .artbord_bot_imgtext {
   position: absolute;
-  left: 43px;
-  top: 730px;
+  left: 0px;
+  bottom: 0px;
   width: 375px;
   height: 54px;
 }
@@ -206,8 +217,8 @@ body {
 /* 图文购买后 */
 .content .artbord_imgtxt_end {
   position: absolute;
-  left: 43px;
-  top: 117px;
+  left: 0px;
+  top: 0px;
   width: 375px;
   height: 667px;
   overflow-y: scroll;
@@ -215,8 +226,8 @@ body {
 
 .content .artbord_imgtxt_comment {
   position: absolute;
-  left: 43px;
-  top: 117px;
+  left: 0px;
+  top: 0px;
   width: 375px;
   height: 667px;
   overflow-y: scroll;
