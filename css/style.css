@@ -69,7 +69,7 @@ body {
 
 /************ gallery ************/
 .content {
-  width: 5000px;
+  width: 10000px;
   padding-left: 5%;
   padding-right: 5%;
   height: 100%;
@@ -101,7 +101,7 @@ body {
   position: absolute;
   width: 375px;
   height: 667px;
-  left: 38px;
+  left: 43px;
   top: 117px;
 }
 
