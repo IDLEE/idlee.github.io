@@ -185,6 +185,16 @@ body {
   overflow-y: scroll;
 }
 
+.content .artbord_imgtxt_frontcommon {
+  position: absolute;
+  left: 43px;
+  top: 117px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+
 .artbord_warp .artbord_bot_imgtext {
   position: absolute;
   left: 43px;
@@ -202,6 +212,16 @@ body {
   height: 667px;
   overflow-y: scroll;
 }
+
+.content .artbord_imgtxt_comment {
+  position: absolute;
+  left: 43px;
+  top: 117px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
 
 
 /************ Animate ************/
