@@ -178,7 +178,17 @@ body {
   overflow-y: scroll;
 }
 
+/* 搜索 */
 .content .artbord_search {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+}
+
+/* 评论 */
+.content .artbord_comment {
   position: absolute;
   left: 0px;
   top: 0px;
