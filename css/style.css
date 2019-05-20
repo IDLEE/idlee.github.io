@@ -105,9 +105,6 @@ body {
   top: 117px;
 }
 
-
-
-
 /* 已购互动 */
 .content .artbord_buy_tab {
   position: absolute;
@@ -243,6 +240,14 @@ body {
   overflow-y: scroll;
 }
 
+.content .artbord_imgtxt_recommend {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
 
 
 /************ Animate ************/
