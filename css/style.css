@@ -267,6 +267,32 @@ body {
   overflow-y: scroll;
 }
 
+.content .artbord_voice_window {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.content .artbord_video_front {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.content .artbord_video_end {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
 
 
 /************ Animate ************/
