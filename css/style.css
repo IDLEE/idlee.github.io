@@ -249,6 +249,25 @@ body {
   overflow-y: scroll;
 }
 
+.content .artbord_voice_style1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.content .artbord_voice_style2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+
 
 /************ Animate ************/
 .artbord_warp video {
