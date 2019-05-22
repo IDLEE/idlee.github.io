@@ -325,6 +325,27 @@ body {
   overflow-y: scroll;
 }
 
+.content .artbord_ebook_front {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.content .artbord_ebook_end {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+
+
+
 /************ Animate ************/
 .artbord_warp video {
   width: 375px;
