@@ -195,17 +195,6 @@ body {
   overflow-y: scroll;
 }
 
-/* 首页 */
-.content .artbord_home_green_tab {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 375px;
-  height: 667px;
-  overflow-y: scroll;
-}
-
-
 /* 搜索 */
 .content .artbord_search {
   position: absolute;
