@@ -115,15 +115,6 @@ body {
   overflow-y: scroll;
 }
 
-.content .artbord_buy_green_tab {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 375px;
-  height: 667px;
-  overflow-y: scroll;
-}
-
 
 /* 已购课程 */
 .content .artbord_buy_lesson_tab {
@@ -157,15 +148,6 @@ body {
 
 /* 消息 */
 .content .artbord_info_tab {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 375px;
-  height: 667px;
-  overflow-y: scroll;
-}
-
-.content .artbord_info_green_tab {
   position: absolute;
   left: 0px;
   top: 0px;
