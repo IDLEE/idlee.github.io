@@ -386,6 +386,7 @@ body {
 
 
 /************ Animate ************/
+
 .artbord_warp video {
   width: 375px;
 }
@@ -397,4 +398,26 @@ body {
   width: 375px;
   height: 667px;
   overflow: hidden;
+}
+
+/************ index ************/
+
+.slogan {
+  margin: 0 auto;
+  width: 960px;
+  height: auto;
+  padding-top: 180px;
+  text-align: center;
+}
+
+.slogan h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #333;
+}
+
+.slogan p {
+  font-size: 20px;
+  color: #333;
+  margin-top: 20px;
 }
