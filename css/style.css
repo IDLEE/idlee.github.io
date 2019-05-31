@@ -1,0 +1,496 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Segoe UI","Helvetica Neue","PingFang SC","Noto Sans","Noto Sans CJK SC","Microsoft YaHei",微软雅黑,sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.top_nav {
+  z-index: 99;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  position: fixed;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
+}
+
+.menu_warp {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 50px;
+  line-height: 50px;
+}
+
+.brand_logo {
+  width: 30px;
+  height: 30px;
+  padding-top: 10px;
+  float: left;
+}
+
+.top_nav .menu_warp ul {
+  float: right;
+  width: 800px;
+  height: 50px;
+}
+
+.top_nav .menu_warp .active a {
+  font-size: 14px;
+  color: #105CFB;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.top_nav .menu_warp ul li {
+  font-size: 14px;
+  float: left;
+  margin: 0 50px;
+  line-height: 50px;
+  color: #666;
+  font-weight: bold;
+}
+
+.top_nav .menu_warp ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  text-decoration: none;
+}
+
+
+/************ gallery ************/
+.content {
+  width: 15000px;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 100%;
+  overflow-x: scroll;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.content h1 {
+  font-size: 24px;
+  color: #333;
+  font-weight:bold;
+}
+.content .artbord_warp {
+  top: 30px;
+  width: 460px;
+  height: 900px;
+  margin-right: 50px;
+  float: left;
+  position: relative;
+  background-image: url(../img/iphone8.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.artbord_warp .artbord_position {
+  position: absolute;
+  width: 375px;
+  height: 667px;
+  left: 43px;
+  top: 117px;
+}
+
+/* 已购互动 */
+.content .artbord_buy_tab {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+
+/* 已购课程 */
+.content .artbord_buy_lesson_tab {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.artbord_warp .artbord_top {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 114px;
+}
+
+.artbord_warp .artbord_bot {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 375px;
+  height: 48px;
+}
+
+.content .artbord_warp img {
+  width: 375px;
+}
+
+/* 消息 */
+.content .artbord_info_tab {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+
+/* 个人中心 */
+.content .artbord_account_tab {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+/* 首页 */
+.content .artbord_home_tab {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+/* 搜索 */
+.content .artbord_search {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+}
+
+/* 评论 */
+.content .artbord_comment {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+}
+
+/* 图文购买前 */
+.content .artbord_imgtxt_front {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.content .artbord_imgtxt_frontcommon {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.content .artbord_imgtxt_frontcommon_green {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.artbord_warp .artbord_bot_imgtext {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 375px;
+  height: 54px;
+}
+
+/* 图文购买后 */
+.content .artbord_imgtxt_end {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.content .artbord_imgtxt_comment {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.content .artbord_imgtxt_recommend {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+/* 音频样式1 */
+.content .artbord_voice_style1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+/* 音频样式2 */
+.content .artbord_voice_style2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+/* 音频弹出交互 */
+.content .artbord_voice_window {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+}
+
+/* 视频购买前 */
+.content .artbord_video_front {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+/* 视频购买后 */
+.content .artbord_video_end {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.content .artbord_live_front {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.content .artbord_live_end_join {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.content .artbord_live_end_replay {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.content .artbord_ebook_front {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+.content .artbord_ebook_end {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+}
+
+
+
+
+/************ Animate ************/
+
+.artbord_warp video {
+  width: 375px;
+}
+
+.artbord_warp .artbord_video_like {
+  position: absolute;
+  left: 43px;
+  top: 117px;
+  width: 375px;
+  height: 667px;
+  overflow: hidden;
+}
+
+/************ index ************/
+
+.slogan {
+  margin: 0 auto;
+  width: 960px;
+  height: auto;
+  padding-top: 180px;
+  text-align: center;
+}
+
+.slogan h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #333;
+}
+
+.slogan p {
+  font-size: 20px;
+  color: #333;
+  margin-top: 20px;
+}
+
+
+.intro {
+  margin: 0 auto;
+  width: 960px;
+  height: auto;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.intro p {
+  font-size: 16px;
+  color: #666;
+  font-weight: 400;
+  text-align: left;
+  line-height: 30px;
+}
+
+
+/************ guide ************/
+
+.content_guide {
+  display: block;
+  margin: 0 auto;
+  width: 960px;
+  height: auto;
+  padding-top: 60px;
+}
+
+.content_guide  p {
+  color: #666;
+  font-size: 14px;
+}
+
+.content_guide h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #105CFB;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.content_guide  .font52 {
+  font-size: 52px;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.content_guide  .font46 {
+  font-size: 46px;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.content_guide  .font40 {
+  font-size: 40px;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.content_guide  .font34 {
+  font-size: 34px;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.content_guide  .font28 {
+  font-size: 28px;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.content_guide  .font22 {
+  font-size: 22px;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.content_guide  .font16 {
+  font-size: 16px;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.color_warp {
+  width: 960px;
+  display: block;
+  margin: 0 auto;
+}
