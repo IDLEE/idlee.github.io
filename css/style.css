@@ -438,12 +438,12 @@ body {
   color: #105CFB;
   margin-bottom: 50px;
   margin-top: 100px;
+  display: inline-block;
 }
 
 .content_guide  .font52 {
   font-size: 52px;
   color: #333;
-  margin-top: 40px;
   margin-bottom: 10px;
 }
 
@@ -571,4 +571,11 @@ body {
   background-color: #FFA940;
   display: block;
   margin-bottom: 10px;
+}
+
+.layout_warp {
+  width: 960px;
+  display: block;
+  margin: 0 auto;
+  clear: both;
 }
