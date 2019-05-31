@@ -419,7 +419,7 @@ body {
 
 /************ guide ************/
 
-.content {
+.content_guide {
   display: block;
   margin: 0 auto;
   width: 960px;
@@ -427,12 +427,12 @@ body {
   padding-top: 60px;
 }
 
-.content p {
+.content_guide  p {
   color: #666;
   font-size: 14px;
 }
 
-.content h2 {
+.content_guide h2 {
   font-size: 20px;
   font-weight: bold;
   color: #105CFB;
@@ -440,49 +440,49 @@ body {
   margin-top: 100px;
 }
 
-.content .font52 {
+.content_guide  .font52 {
   font-size: 52px;
   color: #333;
   margin-top: 40px;
   margin-bottom: 10px;
 }
 
-.content .font46 {
+.content_guide  .font46 {
   font-size: 46px;
   color: #333;
   margin-top: 40px;
   margin-bottom: 10px;
 }
 
-.content .font40 {
+.content_guide  .font40 {
   font-size: 40px;
   color: #333;
   margin-top: 40px;
   margin-bottom: 10px;
 }
 
-.content .font34 {
+.content_guide  .font34 {
   font-size: 34px;
   color: #333;
   margin-top: 40px;
   margin-bottom: 10px;
 }
 
-.content .font28 {
+.content_guide  .font28 {
   font-size: 28px;
   color: #333;
   margin-top: 40px;
   margin-bottom: 10px;
 }
 
-.content .font22 {
+.content_guide  .font22 {
   font-size: 22px;
   color: #333;
   margin-top: 40px;
   margin-bottom: 10px;
 }
 
-.content .font16 {
+.content_guide  .font16 {
   font-size: 16px;
   color: #333;
   margin-top: 40px;
